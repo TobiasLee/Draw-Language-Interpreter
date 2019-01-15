@@ -15,7 +15,7 @@ for t from 0 to 80 step 1 draw(t, sin(t)); // for 绘制语句，画出正弦函
 
 运行结果（源代码见 `./test_file/fn.txt`）：
 
-![Functions](/Users/tobiaslee/GitHub/Draw-Language-Interpreter/img/function.png)
+![Functions](./img/function.png)
 
 文件组成：
 
