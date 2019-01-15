@@ -11,9 +11,9 @@ scale is (5, 5); // 设置 x 轴 y 轴 缩放比例
 for t from 0 to 80 step 1 draw(t, sin(t)); // for 绘制语句，画出正弦函数
 ```
 
-运行程序：`python3 draw.py fn.txt`
+运行程序：`python3 draw.py ./test_file/fn.txt`
 
-运行结果（源代码见 `fn.txt`）：
+运行结果（源代码见 `./test_file/fn.txt`）：
 
 ![Functions](/Users/tobiaslee/GitHub/Draw-Language-Interpreter/img/function.png)
 
