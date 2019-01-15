@@ -1,0 +1,24 @@
+color is 2; // set color to red
+origin is (200, 400); // set origin to 200, 400
+scale is (50, 50); -- set scale
+for t from 0 to 2 * pi step pi / 100 draw(cos(t), sin(t)); // draw first circle
+scale is (100, 100); -- another circle
+for t from 0 to 2 * pi step pi / 200 draw(cos(t), sin(t));
+origin is (10, 30);
+color is 1;
+scale is (2, 2);
+for t from 0 to 60 step 2 draw(0, t);
+for t from 0 to 30 step 2 draw(t, 0);
+origin is (80, 140);
+for t from 0 to 2 * pi step pi / 200 draw(cos(t), sin(t));
+for t from -56 to -10 step 2 draw(0, t);
+origin is (100, 30);
+for t from 0 to 60 step 2 draw(0, t);
+for t from 0 to 30 step 2 draw(t, 0);
+
+for t from 0 to 100 step 2 draw(t, t*t);
+
+origin is (280, 140);
+for t from 0 to 2 * pi step pi / 200 draw(cos(t), sin(t));
+for t from -56 to -10 step 2 draw(0, t);
+// wrong test

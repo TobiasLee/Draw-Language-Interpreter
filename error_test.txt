@@ -1,0 +1,5 @@
+for t form 1 to 10 / 0 step 1 draw(5, 1);// Exception: Token type not matched: Supposed Type.FROM but get Type.ERRTOKEN
+for x form 1 to 10 / 0 step 1 draw(5, 1);  // Exception: Token type not matched: Supposed Type.T but get Type.ERRTOKEN
+for t from 1/0 to 10 / 0 step 1 draw(5, 1); // ZeroDivisionError: float division by zero
+// for t from 1 to 10  step 1 draw(5, 1)Exception: Token type not matched: Supposed Type.SEMICO but get Type.FOR
+
