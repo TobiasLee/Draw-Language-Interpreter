@@ -1,5 +1,5 @@
 # 简单绘图语言的解释器
-Project of Compile Principle in XDU, a interpreter for a simple draw language
+Project of Compile Principle in XDU, an interpreter for a simple draw language
 
 西电编译原理课程大作业，简单绘图语言的解释器。
 
