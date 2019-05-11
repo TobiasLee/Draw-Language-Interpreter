@@ -1,0 +1,29 @@
+origin is ((-3.5+2.5)*2 + 5, 300);
+rot is pi;
+scale is (2, 2);
+width is 1;
+for t from 1 to 200 step (-3.5+2.5)*2 + 5 draw (t, t+1);
+rot is 0;
+scale is (10, 10);
+origin is (10 + 20 * 4 + 2^5, 10 + 20 * 4 + 2^5);
+for t from 1 to 20  step 1 draw (2 * sin(t), 2 * cos(t)); // draw a circle
+origin is (300, 400);
+for t from 1 to 20  step 1 draw (t, cos(t)); // draw a cos (t)
+rot is 0;
+width is 3;
+origin is (300, 200);
+color is (20, 240, 12);
+for t from 1 to 20  step 1 draw (t, sin(t)); // draw a sin (t)
+rot is -pi/4;
+origin is (300, 300);
+for t from 1 to 20  step 1 draw (t, sin(t)); // rotate sin(t)
+rot is 0;
+origin is (200, 200);
+scale is (2, 2);
+color is (0, 12, 234);
+width is 10;
+for t from 1 to 100  step 1 draw (t, t^2); //  draw a t^2
+origin is (0, 0);
+color is (0, 0, 0);
+scale is (2, 2);
+for t from 0 to 200 step 2 draw (t, e^t - 50);

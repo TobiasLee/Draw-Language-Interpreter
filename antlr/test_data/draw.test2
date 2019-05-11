@@ -1,0 +1,23 @@
+origin is (0, 0);
+scale is (2, 2);
+a = 5;
+width is a;
+color is (0, 0 , 0);
+scale is (10, 10);
+for t from 0 to 300 step 0.1 draw (t, 0.4 * exp(t) - 20); // draw a exp(t)
+scale is (1, 1);
+color is (233, 23, 23);
+for t from 0 to 500 step (3 + 2^4 - 15)*2 + 5 draw (t,  ln(t) ); // draw a  ln(t)
+color is (23, 23, 233);
+for t from 0 to 500 step 1 draw (t, sqrt(t)); // draw a  ln(t)
+color is (23, 129, 163);
+for t from 0 to 300 step 1 draw (t, t); // draw a  t
+color is (123, 122, 54);
+for t from 0 to 300 step 1 draw (t, t*t); // draw a  t^2
+color is (69, 122, 54);
+for t from 0 to 300 step 1 draw (t, t^(3/2)); // draw a  t^2
+//origin is (200, 300);
+rot is pi;
+scale is (2, 2);
+width is 4;
+for t from 1 to 200 step (-3.5+2.5)*2 + 5 draw (t, t+1);

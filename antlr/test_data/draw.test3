@@ -1,0 +1,10 @@
+for t from 0 to 4*pi step pi/50 draw (cos(t), sin(t));
+origin is (2,3);
+width is 15;
+for t from 0 to 200 step 0.5 draw (t, 2 / 0 );
+origin is (300, 300);
+scale is (100,100);
+color is (220, 25, 183);
+width is 8;
+for t from 0 to 200 step pi/50 draw (t, t);
+

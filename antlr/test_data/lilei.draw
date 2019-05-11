@@ -1,0 +1,29 @@
+origin is (0,0);
+scale is (3,3);
+rot is 0;
+// set color
+color is (25, 233, 123);
+width is 10;
+// draw my name  lilei
+// L
+for t from 10 to 80 step 5 draw (10, t);
+for t from 10 to 40 step 5 draw (t, 10);
+// i
+color is (230, 12, 34);
+for t from 80 to 80 step 5 draw (50, 80);
+for t from 10 to 70 step 5 draw (50, t);
+// L
+color is (25, 103, 233);
+for t from 10 to 80 step 5 draw (70, t);
+for t from 70 to 100 step 5 draw (t, 10);
+// E
+color is (77, 73, 133);
+for t from 10 to 80 step 5 draw (110, t);
+for t from 110 to 140 step 5 draw (t, 80);
+for t from 110 to 140 step 5 draw (t, 50);
+for t from 110 to 140 step 5 draw (t, 10);
+// i
+color is (230, 12, 34);
+width is 10;
+for t from 80 to 80 step 5 draw (165, 80);
+for t from 10 to 70 step 5 draw (165, t);
